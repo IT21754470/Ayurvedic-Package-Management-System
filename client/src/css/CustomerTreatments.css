@@ -1,0 +1,20 @@
+/*
+/* CustomerTreatments.css */
+
+  
+  /* Add any other styles as needed */
+  
+
+
+.treatment-columns {
+  display: flex;
+  flex-wrap: wrap; /* Allows columns to wrap to the next line if needed */
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.treatment-column {
+  width: calc(50% - 10px); /* Adjust the width and margin as needed for spacing */
+  margin-bottom: 20px; /* Add margin between columns */
+}
+
+/* Add any other styles as needed */

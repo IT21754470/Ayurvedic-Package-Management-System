@@ -1,0 +1,70 @@
+/* TreatmentDetailsModal.css */
+.modal {
+    background-color: #dbf0d8;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* On top of the overlay */
+  }
+  
+  .modal-title {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .modal-image {
+    max-width: 50%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .modal-description {
+    font-size: 1rem;
+    color: #000000;
+    margin-top: 10px;
+  }
+  
+  .modal-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  .modal-add{
+    background-color: #f10909;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+
+  
+  .modal-close {
+    background-color: #e5dad6;
+    color: #1a0c0c;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .modal-close:hover {
+    background-color: #aaa4a3;
+  }
+  

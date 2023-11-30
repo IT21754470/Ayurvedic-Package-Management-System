@@ -1,0 +1,131 @@
+.home-container {
+  margin: 30px auto;
+  padding: 20px;
+  width: 1160px;
+  background-color: #d2c8c8;
+  /* Adjust the maximum width as needed */
+}
+
+  
+.home-header {
+    text-align: center;
+    margin-bottom: 20px;
+  
+  }
+  
+  .home-header h1 {
+    color: #d01679;
+    font-size: 50px;
+    margin-top: 0;
+  }
+  
+  /* Top navigation styles */
+  .topnav {
+    background-color: #161515;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+  }
+  
+  .topnav a {
+    color: #e7e1e1;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .topnav a:hover {
+    background-color: #c751bb;
+    color: #000;
+  }
+  
+  /* Card styles */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #d2c8c8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .card img {
+    max-height: 200px;
+    width: auto;
+    margin: 10px auto;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #0f0e0e;
+    margin: 5px 0;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+  /* Login button styles */
+  a#login-button.button.logout.login.w-button {
+    background-color: #ff6678;
+    color: #253858;
+    font-size: 14px;
+    border-radius: 25px;
+    margin: 0 10px;
+    padding: 10px 20px;
+  }
+  
+  a#login-button.button.logout.login.w-button:hover {
+    background-color: #2ac28f;
+  }
+  /* Add a new class for the sign-up button */
+.sign-up-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #c751bb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .sign-up-button:hover {
+    background-color: #b544aa;
+  }
+  

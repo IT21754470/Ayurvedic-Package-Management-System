@@ -1,0 +1,175 @@
+/* NavigationBar.css */
+
+
+
+  .search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    border-color: black;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    color:red;
+  }
+  
+  /* Style for the search button */
+  .search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the search button on hover */
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Layout.css */
+  
+  .layout {
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .content {
+    flex: 1; /* Take up remaining space */
+    padding-left: 260px; /* Adjust based on the sidebar width */
+  }
+  
+
+
+
+
+
+
+
+
+
+  /* The side navigation menu */
+.sidebar {
+  margin: 30px;
+  padding: 0;
+  width: 225px;
+  position: fixed; 
+  background-color: #dccdcd;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+/* Existing styles for the sidebar */
+/* ... */
+
+/* New styles for collapsed sidebar */
+.sidebar.collapsed {
+  width: 50px; /* Adjust the width as needed */
+}
+
+.sidebar.collapsed .toggle-button {
+  display: block;
+}
+
+.sidebar .toggle-button {
+  display: none;
+  background-color: #010302;
+  color: rgb(2, 2, 2);
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Styles for the links in the collapsed sidebar */
+.sidebar.collapsed a {
+  text-indent: -9999px;
+  overflow: hidden;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar.collapsed a:hover {
+  background-color: #000000;
+}
+
+/* Adjust content margin when the sidebar is collapsed */
+div.content {
+  margin-left: 200px; /* This should be your full sidebar width */
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* Media queries for collapsing the sidebar */
+@media screen and (max-width: 700px) {
+  .sidebar.collapsed {
+    width: 0;
+  }
+
+  .sidebar.collapsed .toggle-button {
+    display: block;
+  }
+
+  div.content {
+    margin-left: 0;
+  }
+}
+

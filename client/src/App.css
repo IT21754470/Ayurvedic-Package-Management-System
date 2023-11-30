@@ -1,0 +1,267 @@
+/* Add CSS styles to App.css file or your preferred CSS file */
+/* Add CSS styles to App.css file or your preferred CSS file */
+
+/* General styles */
+/* ... (Existing styles) */
+/* ... (other styles) */
+
+/* Home page styles */
+.home-container {
+  background-color: #d7c6c6;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.home-features {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.feature {
+  flex: 0 0 calc(33.33% - 20px);
+  text-align: center;
+}
+
+.feature-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 10px;
+}
+
+.home-cta {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.home-cta h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.home-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn-enroll {
+  background-color: #007bff;
+}
+
+/* Sign-up form styles */
+.form-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-signup {
+  background-color: #28a745;
+}
+
+/* ... (existing styles) */
+/* app.css */
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+/* Add more styles as needed */
+/* app.css */
+/* Edit button */
+.btn-edit {
+  background-color: #007bff; /* Blue color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Delete button */
+.btn-delete {
+  background-color: #dc3545; /* Red color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+.product-display-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Add your global styles here */
+
+/* Container for the entire homepage */
+.home-container {
+  margin: 30px auto;
+  padding: 20px;
+  width: 5000px;
+  /* Adjust the maximum width as needed */
+}
+
+/* Header styles */
+.home-header {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.home-header h1 {
+  color: #d01679;
+  font-size: 50px;
+  margin-top: 0;
+}
+
+/* Top navigation styles */
+.topnav {
+  background-color: #161515;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+ 
+}
+
+.topnav a {
+  color: #bfbfbf;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.topnav a:hover {
+  background-color: #c751bb;
+  color: #000;
+}
+
+/* Card styles */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #d2c8c8;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h1 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.card img {
+  max-height: 200px;
+  width: auto;
+  margin: 10px auto;
+}
+
+.card p {
+  font-size: 16px;
+  color: #0f0e0e;
+  margin: 5px 0;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/* Login button styles */
+a#login-button.button.logout.login.w-button {
+  background-color: #ff6678;
+  color: #253858;
+  font-size: 14px;
+  border-radius: 25px;
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+
+a#login-button.button.logout.login.w-button:hover {
+  background-color: #2ac28f;
+}
+
+
+/* App.css */
+
+/* Style for the container */

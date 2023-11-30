@@ -1,0 +1,73 @@
+/* TreatmentCard.css */
+/* TreatmentCard.css */
+.treatment-card {
+  /* Your card styling here */
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(232, 226, 219);
+}
+
+.treatment-image {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.view-more-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Add any other styles as needed */
+
+
+  .treatment-card:last-child {
+    margin-right: 0;
+  }
+  
+  .treatment-name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .treatment-image {
+    max-width: 100%;
+    max-height: 200px; /* Set a maximum height for the images */
+    width: auto; /* Ensure the width adjusts proportionally */
+    border-radius: 5px;
+  }
+  
+  .treatment-description {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .treatment-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .view-more-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .view-more-button:hover {
+    background-color: #0056b3;
+  }
+  
