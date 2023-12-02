@@ -1,4 +1,4 @@
-Ayurvedic Package Management System
+#Ayurvedic Package Management System
 A comprehensive web application for an Ayurvedic website, facilitating the management and sale of Ayurvedic packages. Built using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
 
 Table of Contents
