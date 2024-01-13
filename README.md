@@ -50,3 +50,10 @@ If you'd like to contribute to the project, please follow the contributing guide
 
 License
 This project is licensed under the MIT License.
+
+
+![Screenshot (1174)](https://github.com/IT21754470/Ayurvedic-Package-Management-System/assets/110586268/072832a5-b348-4b08-9136-ecd3178b57b1)
+
+![Screenshot (1176)](https://github.com/IT21754470/Ayurvedic-Package-Management-System/assets/110586268/0d78e766-d619-4352-aeac-461265f7e911)
+![Screenshot (1173)](https://github.com/IT21754470/Ayurvedic-Package-Management-System/assets/110586268/9e03acbf-f641-4d22-88d9-7738717b9318)
+![Screenshot (1172)](https://github.com/IT21754470/Ayurvedic-Package-Management-System/assets/110586268/bc60762b-563a-4905-827c-a483f7725650)
